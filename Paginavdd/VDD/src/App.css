@@ -37,12 +37,17 @@ section{
   color: #c8961e;
   font-size: small;
   align-self: flex-start;
+  font-size: 17px;
+  font-family: 'Lora', Georgia, serif;
+  letter-spacing: 0.1em;
+  font-weight: 100;
 }
 
 .firstH1{
   color: white;
   align-self: flex-start;
   font-size: 60px;
+  font-style: italic;
   font-family: 'Playfair Display', Georgia, serif;
 }
 
@@ -52,28 +57,22 @@ section{
   font-family: 'Playfair Display', Georgia, serif;
 }
 
-.firstP{
-  color: #8a8070;
-  font-style: italic;
-  line-height: 1.8rem;
-}
-
 .hipotesis{
   border-left: 3px solid #f0b830;;
-  width: 100%;
+  width: 110%;
   min-height: 100px;
   background-color: rgba(200, 150, 30, 0.06);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 0px 20px;
   align-self: flex-start;
   margin-top: 30px;
 }
 
 .hipotesis p{
-  font-size: 15px;
-  line-height: 1.8rem;
+  font-size: 19px;
+  line-height: 2.1rem;
   color: #e8e0d0;
 }
 
@@ -177,11 +176,11 @@ section{
 }
 
 .storytelling_1, .storytelling_1_2, .storytelling_2, .storytelling_2_1{
-  width: 80%;
+  width: 90%;
   color: #c4bca8;
   font-family: 'Lora', Georgia, serif;
   line-height: 1.8rem;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
 }
 
 .highlight{
@@ -212,7 +211,7 @@ iframe{
     line-height: 1.4;
     border-top: 1px solid #c8961e;
     border-bottom: 1px solid #c8961e;
-    margin: 2.5rem 0;
+    margin: 5.5rem 0 4rem 0;
     max-width: 650px;
     display: flex;
     flex-direction: column;
@@ -320,7 +319,7 @@ iframe{
 .firstH1.conclusion{
   text-align: center;
   font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: 50px;
     font-weight: 900;
     font-style: italic;
     color: #f0ead8;
@@ -339,7 +338,10 @@ footer {
     align-items: center;
     gap: 1rem;
     width: 100%;
+}
 
+footer div:first-child p:first-child{
+  color: white;
 }
 
 .resultado{
