@@ -1,0 +1,540 @@
+
+body{
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+main{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.firstH4{
+  color: #c8961e;
+  font-size: small;
+  align-self: flex-start;
+}
+
+.firstH1{
+  color: white;
+  align-self: flex-start;
+  font-size: 60px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.firstH1 b{
+  color: #f0b830;
+  font-style: italic;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.firstP{
+  color: #8a8070;
+  font-style: italic;
+  line-height: 1.8rem;
+}
+
+.hipotesis{
+  border-left: 3px solid #f0b830;;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(200, 150, 30, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+
+.hipotesis p{
+  font-size: 15px;
+  line-height: 1.8rem;
+  color: #e8e0d0;
+}
+
+.lineDeco{
+
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin: 0 auto;
+  
+}
+
+.line1{
+  height: 1px;
+  flex: 1;
+  align-self: flex-start;
+  background-color: #2a2a2a;;
+  margin-top: 50px;
+}
+
+.dot{
+  width: 5px;
+  height: 5px;
+  align-self: flex-end;
+  justify-self: flex-end;
+  background-color: #f0b830;
+  border-radius: 50%;
+}
+
+.line2{
+  flex: 1;
+  height: 1px;
+  align-self: flex-end;
+  background-color: #2a2a2a;;
+}
+
+.numberItem{
+  color: #2a2a2a;
+  font-size: 100px;
+}
+
+.firstItem{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 10rem;
+  margin-bottom: 20px;
+}
+
+.firstItem h2{
+  color: #8a8070;
+  font-size: 15px;
+  position: absolute;
+  top: 120px;
+}
+
+.table{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  border: 1px solid #2a2a2a;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  background-color: #2a2a2a;
+  width: 100%;
+  min-height: 10rem;
+  border-radius: 4px;
+}
+
+.tab{
+  background: #161616;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.valorMax, .valorMin{
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f0b830;;
+    line-height: 1;
+    display: block;
+}
+
+.picoHistorico{
+    font-size: 0.8rem;
+    color: #8a8070;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 2rem;
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.golesxpartido{
+  font-size: 1rem;
+  color: #c8961e;
+}
+
+.storytelling_1, .storytelling_1_2, .storytelling_2, .storytelling_2_1{
+  width: 80%;
+  color: #c4bca8;
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.8rem;
+  font-size: 1.05rem;
+}
+
+.highlight{
+  color: #f0b830;
+}
+
+
+iframe{
+  margin: 30px 0;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  height: 700px;
+  width: 150%;
+  align-self: center;
+}
+
+.grafico2{
+  height: 600px;
+}
+
+
+.quote{
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #f0ead8;
+    line-height: 1.4;
+    border-top: 1px solid #c8961e;
+    border-bottom: 1px solid #c8961e;
+    margin: 2.5rem 0;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.quote p:first-child{
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.quote p:last-child{
+  font-size: 1rem;
+  color: #8a8070;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.regiones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.region-card {
+    background: #161616;;
+    border: 1px solid #2a2a2a;;
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem;
+}
+
+.regionName {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a8070;
+    margin-bottom: 0.75rem;
+}
+
+.region-pct {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f0ead8;
+}
+
+.region-note {
+    font-size: 0.85rem;
+    color: #8a8070;
+    margin-top: 0.25rem;
+}
+
+.region-bar-wrap {
+    height: 6px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.region-bar.dominant {
+    background: #c8961e;
+    border-radius: 10px;
+}
+
+.region-bar {
+    height: 100%;
+}
+
+.region-bar.growing{
+  border-radius: 10px;
+  background: #4a8fc1;;
+}
+
+.pregunta {
+    background: rgba(200, 150, 30, 0.06);
+    border: 1px solid rgba(200, 150, 30, 0.25);
+    border-radius: 4px;
+    padding: 2rem 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.pregunta p:first-child{
+      font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c8961e;
+    margin-bottom: 0.75rem;
+}
+
+.pregunta p:last-child{
+  font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.45rem;
+    font-style: italic;
+    color: #f0ead8;
+    line-height: 1.45;
+}
+
+.conclusion{
+  align-self: center;
+  font-weight: 400;
+}
+
+.firstH1.conclusion{
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    font-style: italic;
+    color: #f0ead8;
+    line-height: 1.15;
+    margin-bottom: 2rem;
+}
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+    color: #8a8070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.resultado{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: #2a2a2a;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+.resultado1, .resultado2{
+  background: #161616;
+    padding: 1.5rem 1.75rem;
+}
+
+.loqueno {
+    color: #3b6b8e;
+    font-weight: 800;
+}
+
+.veredicto.yes{
+    color:#f0b830;
+}
+
+.veredicto{
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+}
+
+.resultado1 p:last-child, .resultado2 p:last-child{
+    font-size: 0.95rem;
+    color: #c4bca8;
+    line-height: 1.7;
+}
+
+@media (max-width: 1200px){
+  main{
+    width: 60vw;
+  }
+
+  section{
+    width: 65vw;
+  }
+
+  iframe{
+    width: 120%;
+    max-width: 120%;
+    height: 620px;
+  }
+
+  .storytelling_1, .storytelling_1_2, .storytelling_2, .storytelling_2_1{
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px){
+  main,
+  section{
+    width: 100%;
+  }
+
+  .firstH1{
+    font-size: 46px;
+  }
+
+  .numberItem{
+    font-size: 72px;
+  }
+
+  .table{
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .resultado{
+    grid-template-columns: 1fr;
+  }
+
+  .regiones{
+    grid-template-columns: 1fr;
+  }
+
+  iframe{
+    width: 100%;
+    max-width: 100%;
+    height: 520px;
+  }
+
+  .quote{
+    font-size: 1.35rem;
+  }
+
+  .storytelling_1, .storytelling_1_2, .storytelling_2, .storytelling_2_1{
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    padding: 0 14px;
+  }
+
+  main,
+  section{
+    margin-top: 32px;
+  }
+
+  .firstH1{
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .firstP{
+    font-size: 0.98rem;
+    line-height: 1.7rem;
+  }
+
+  .hipotesis{
+    padding: 14px;
+    min-height: auto;
+  }
+
+  .hipotesis p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+  .numberItem{
+    font-size: 90px;
+  }
+
+  .firstItem{
+    min-height: 7rem;
+  }
+
+
+  .tab{
+    padding: 1.2rem 1rem;
+  }
+
+  .valorMax, .valorMin{
+    font-size: 2rem;
+  }
+
+  .picoHistorico{
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .quote{
+    font-size: 1.15rem;
+    margin: 2rem 0;
+  }
+
+  .pregunta{
+    padding: 1.4rem 1.2rem;
+  }
+
+  .pregunta p:last-child{
+    font-size: 1.15rem;
+  }
+
+  .region-card{
+    padding: 1rem;
+  }
+
+  .region-pct{
+    font-size: 1.5rem;
+  }
+
+  .resultado1, .resultado2{
+    padding: 1.2rem;
+  }
+
+  iframe{
+    height: 520px;
+    border-radius: 8px;
+  }
+
+  .grafico2{
+    height: 620px;
+  }
+
+  .lineDeco{
+    gap: 0.6rem;
+  }
+}
