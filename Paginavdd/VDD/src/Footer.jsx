@@ -2,10 +2,15 @@ import { useEffect } from "react"
 import "./App.css"
 import SectionNumber from "./SectionNumber"
 function SixthGraph() {
+
+  const cambiarAncho = () => {
+    document.body.classList.toggle("modo-ancho")
+  }
+
   return (
     <footer>
         <div>
-          <p>Parcial Visualización de Datos- Tecnología Digital</p>
+          <p onClick={cambiarAncho} className="footer-boton">Parcial Visualización de Datos- Tecnología Digital</p>
           <p>Facundo Arechaga, Franco Bergman y Peter Ahn</p>
 
         </div>
