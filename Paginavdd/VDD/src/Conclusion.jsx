@@ -8,7 +8,7 @@ function Conclusion() {
         <h1 className="firstH1 conclusion">La táctica no tiene pasaporte</h1>
         <p className="storytelling_2 conclusion">El fútbol mundialista se volvió más defensivo, los goles escasean y caen cada vez más tarde, 
             eso está probado. Las nuevas confederaciones contribuyeron, pero no son las responsables únicas: <span className="highlight">el bloque bajo, el resultado como religión 
-            y el análisis de video cruzaron todas las fronteras</span>. Hoy, tanto un equipo europeo como uno asiático saben cómo aguantar 80 minutos y definir en 
+            y el análisis cruzaron todas las fronteras</span>. Hoy, tanto un equipo europeo como uno asiático saben cómo aguantar 80 minutos y definir en 
             el 89'. La táctica no tiene pasaporte.</p>
 
         

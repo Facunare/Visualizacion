@@ -52,11 +52,6 @@ function FifthGraph() {
                 <p className="region-note">Japón, Corea y Australia acumulan participaciones y eliminaciones históricas</p>
             </div>
         </div>
-
-        <div className="pregunta">
-            <p>LA PREGUNTA QUE SURGE</p>
-            <p>¿Es la irrupción de estas nuevas confederaciones lo que explica que los goles escaseen, que caigan más tarde y que los penales sean hoy los protagonistas del juego?</p>
-        </div>
             
         <iframe className="mapa" src='https://flo.uri.sh/visualisation/28424940/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
         frameborder='0' scrolling='no' style={{ height: '650px' }}

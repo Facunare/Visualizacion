@@ -10,7 +10,7 @@ function SecondGraph() {
             esa cifra saltó al <span className="highlight">26%</span>. Mientras tanto, los primeros 30 minutos concentran cada vez menos tantos: los equipos 
             salieron a especular, a aguantar, a esperar el error del rival.</p>
 
-        <p className="storytelling_2_1">Esta transformación tiene nombre táctico: <span className="highlight">el bloque bajo</span>. Equipos que ceden el balón, comprimen espacios y atacan en 
+        <p className="storytelling_2_1">Esta transformación tiene nombre táctico: <span className="highlight">el bloque bajo</span>. Equipos que ceden la pelota, comprimen espacios y atacan en 
             transición solo cuando el rival se desorganiza. Y el resultado más lógico de ese choque de paciencias es que las redes 
             se sacuden cuando el cansancio rompe las líneas: en el minuto 80, 85, o en el descuento.</p>
 
