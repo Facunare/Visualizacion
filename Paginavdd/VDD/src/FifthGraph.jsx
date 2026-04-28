@@ -51,7 +51,7 @@ function FifthGraph() {
             
                 <div className="pregunta">
             <p>LA PREGUNTA QUE SURGE</p>
-            <p>¿Es la irrupción de estas nuevas confederaciones lo que explica que los goles escaseen, que caigan más tarde y que los penales sean hoy los protagonistas del juego?</p>
+            <p>¿Es la irrupción de estas nuevas confederaciones lo que explica que los goles escaseen, que caigan más tarde y que hayan mas penales y goles en contra por su juego defensivo?</p>
         </div>
 
         <iframe className="mapa" src='https://flo.uri.sh/visualisation/28424940/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
