@@ -10,8 +10,6 @@ function ThirdGraph() {
             Los equipos modernos saben administrar los primeros 45 minutos: las instrucciones del banco, los ajustes al descanso y la entrada de 
             cambios explosivos hacen del segundo tiempo un territorio cada vez más fértil.</p>
 
-        <p className="storytelling_2_1">La prórroga también suma: los mundiales con más partidos eliminatorios prolongados han visto cómo los goles extra tiempo 
-            inflan la columna naranja: señal de que los partidos cada vez se deciden <span className="highlight">más tarde y más ajustados</span>.</p>
 
         <iframe src='https://flo.uri.sh/visualisation/28414209/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
         frameborder='0' scrolling='no'
