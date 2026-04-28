@@ -14,10 +14,6 @@ function FifthGraph() {
             construida sobre la organización defensiva antes que sobre el talento individual. A medida que el mapa se tiñó de color, 
             el promedio de goles por partido comenzó a caer.</p>
 
-        <p className="storytelling_2_1">Mirando esta evolución surge una pregunta inevitable: <span className="highlight">¿es la irrupción de estas 
-            nuevas confederaciones lo que explica que los goles escaseen, que caigan cada vez más tarde y que los penales y 
-            errores sean hoy los protagonistas del juego?</span></p>
-
         <div className="regiones">
             <div className="uefa region-card">
                 <p className="regionName">EUROPA (UEFA)</p>
@@ -53,6 +49,11 @@ function FifthGraph() {
             </div>
         </div>
             
+                <div className="pregunta">
+            <p>LA PREGUNTA QUE SURGE</p>
+            <p>¿Es la irrupción de estas nuevas confederaciones lo que explica que los goles escaseen, que caigan más tarde y que los penales sean hoy los protagonistas del juego?</p>
+        </div>
+
         <iframe className="mapa" src='https://flo.uri.sh/visualisation/28424940/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
         frameborder='0' scrolling='no' style={{ height: '650px' }}
         sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
